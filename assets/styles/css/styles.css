@@ -1,0 +1,149 @@
+body {
+  background-image: url('/assets/images/wickedbackground.svg');
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+.menu-nav-item {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px 16px;
+  transition: color .2s ease-in-out, background .2s ease-in-out;
+}
+
+.menu-nav-item:hover {
+  color: var(--indigo);
+  background: var(--white);  
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  padding-top: 5rem
+}
+
+.hero > img {
+    width: 360px;
+}
+
+.hero > div > h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 4rem;
+  text-align: right;
+}
+
+.hero > div {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  width: 100%;
+  align-items: flex-end;
+  align-content: center;
+}
+
+.hero > div > button {
+  background: var(--purple);
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px 16px;
+  text-align: right;
+
+  transition: color .2s ease-in-out, background .2s ease-in-out;
+}
+
+.hero > div > button:hover {
+  background: var(--white);
+  color: var(--purple);
+  text-align: right;
+}
+
+.apps {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  margin-top: 5rem;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.app-solucao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: var(--purple);
+  border-radius: 8px;
+  color: var(--light);
+
+  width: 210px;
+  margin-top: 2rem;
+
+}
+
+.app-solucao > h3 {
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.app-solucao > ul > li {
+  padding: .7rem 0;
+  font-size: 1.3rem;
+  line-height: 1.23rem;
+  text-align: center;
+}
+
+.app-solucao > button {
+  background: var(--success);
+  color: var(--light);
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px 16px;
+
+  transition: color .2s ease-in-out, background .2s ease-in-out;
+  margin-bottom: 1rem;
+}
+
+.app-solucao > button:hover {
+  background: var(--green);
+  color: var(--white);  
+}
