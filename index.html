@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -32,32 +32,34 @@
       </div>
     </div>
     <div class="apps">
-      <h2>Soluções capazes de simplificar</h2>
+      <h2>Solução capaz de simplificar</h2>
       <div class="app-container">
         <div class="app-solucao">
-          <h3>Tributos</h3>
+          <h3>Tributos Online</h3>
           <ul>
-            <li>ISS</li>
             <li>IPTU</li>
-            <li>Muito mais</li>
-          </ul>
-          <button>Solicitar demo</button>
-        </div>
-        <div class="app-solucao">
-          <h3>Financeiro</h3>
-          <ul>
             <li>ISS</li>
-            <li>IPTU</li>
-            <li>Secretarias</li>
+            <li>ITBI</li>
+            <li>IRRF</li>
           </ul>
           <button>Solicitar demo</button>
         </div>
       </div>
     </div>
-    <div class="contact">
-
+    <div class="app-contact" id="contato">
+      <h2>Entre em contato agora mesmo</h2>
+      <div class="app-contact-form">
+        <label class="app-contact-form__label" for="name">Seu nome</label>
+        <input class="app-contact-form__input" id="name" type="text" />
+        <label class="app-contact-form__label" for="cargo">Cargo</label>
+        <input class="app-contact-form__input" id="cargo" type="text" />
+        <label class="app-contact-form__label" for="whatsapp">WhatsApp</label>
+        <input class="app-contact-form__input" id="whatsapp" type="tel" pattern="\(\d{2}\)\s*\d{5}-\d{4}" maxlength="15"
+          required />
+        <button>Tirar dúvidas</button>
+      </div>
     </div>
     <footer>Desenvolvidor por AR-Sistemas R/S - &copy; 1988 - 2023</footer>
+    <script src="/assets/js/script.js" />
 </body>
-
 </html>
