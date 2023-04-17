@@ -198,3 +198,11 @@ body {
 
   margin-bottom: 1.8rem;
 }
+
+textarea#mensagem {
+  height: 16.4rem;
+  resize: none;
+  text-align: left;
+
+  padding: 1rem;
+}
